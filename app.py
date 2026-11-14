@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>Welcome to CI/CD Practical 10</h1>
+    <h1Updated Application Using CI/CD!</h1>
     <h2>Application Deployed Successfully!</h2>
     <p>This application uses:</p>
     <ul>
