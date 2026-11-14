@@ -6,7 +6,7 @@ def test_home_page():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"CI/CD Practical 10" in response.data
+    assert b"Updated Application Using CI/CD!" in response.data
 
 def test_health_page():
     client = app.test_client()
